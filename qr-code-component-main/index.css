@@ -8,8 +8,10 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin: 10% 40% 0;
-    border-radius: 4%;
+    margin: 9% 39% 0;
+    /* em and rem is 16cm/px not sure yet */
+    /* margin: 6em 32em 0; */
+    border-radius: 5%;
     padding: 12px;
     text-align: center;
 }
@@ -21,15 +23,17 @@ img{
 #head{
     font-weight: 700;
     color:  hsl(218, 44%, 22%);
-    margin: 15px 6% 0 ;
-    font-size: 18px;
+    /* margin: 15px 0.5em 0 ; */
+    margin: 15px 6% 0;
+    font-size: 1.5rem;
 }
 
 #capt{
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    font-size: 12px;
-    margin: 10px 10% 25px;
+    font-size: 0.9375rem;
+    /* margin: 10px 1.1em 25px; */
+    margin: 10
 }
 
 @media screen and ( max-width: 375px) {
